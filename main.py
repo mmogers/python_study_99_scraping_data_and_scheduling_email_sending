@@ -37,7 +37,7 @@ def sendEmail(news_list):
     s.login(username, password)
 
     msg = MIMEMultipart()
-    msg['To'] = "marinamoger@yahoo.com"
+    msg['To'] = "blabl@yahoo.com"
     msg['From'] = username
     msg['Subject'] = "Top 3 community events!"
 
